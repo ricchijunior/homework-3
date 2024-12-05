@@ -121,19 +121,29 @@
     color: #404bbf;
   }
   
+  /* section 1 */
+
   .section-first {
-    background: #2e2f42;
+    background: #2e2f42; 
+    padding: 188px 0;
   }
 
+  
+
   .section-title {
+    max-width: 496px;
       font-size: 56px;
       line-height: 1.07;
       letter-spacing: 0.02em;
       text-align: center;
       color: #ffffff;
+      margin: auto;
   }
 
     .section-first-button {
+      height: 56px;
+      min-width: 169px;
+      display: block;
       font-weight: 500;
       font-size: 16px;
         line-height: 1.5;
@@ -141,6 +151,11 @@
         color: #ffffff;
         background: #4d5ae5;
         cursor: pointer;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin: auto;
+        margin-top: 48px;
  }
 
      .section-first-button:hover,
